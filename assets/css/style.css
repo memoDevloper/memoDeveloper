@@ -2200,7 +2200,7 @@ nav.navbar.bootsnav .navbar-toggle i {
         font-size: 25px;
     }
 
-    .Postlar {
+    .Postlar{
         display: flex;
         flex-direction: column;
         transform: translate(5px, 54px);
