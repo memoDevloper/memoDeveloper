@@ -2206,6 +2206,10 @@ nav.navbar.bootsnav .navbar-toggle i {
         transform: translate(5px, 54px);
     }
 
+    .navbar-collapse .menu-ui-design .collapse .in{
+        background-color: #66D8B3 !important;
+    }
+
 }
 
 /*========================Thank you=================
