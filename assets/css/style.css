@@ -607,6 +607,21 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 50%;
 }
 
+.postlar{
+    display: flex;
+    flex-direction: row;
+    transform: translate(150px, 54px);
+}
+
+.frame3 .div-3{
+    padding-right: 15px;
+}
+
+.frame3 .div-8{
+    padding-right: 15px;
+}
+
+
 .single-how-works h2 a {
     font-size: 18px;
     margin: 35px 0 20px;
