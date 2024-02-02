@@ -1203,6 +1203,22 @@ nav.navbar.bootsnav .navbar-toggle i {
     transition: 0.3s ease-in-out;
 }
 
+.imageBg2 div{
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.daha-ayd-n-bir{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.bug-n-yar-n-ve-her-g{
+    padding: 5px 10px;
+    width: 100%;
+}
+
 .appsLand-btn:hover,
 .appsLand-btn:focus,
 .appsLand-btn:active {
@@ -1413,7 +1429,6 @@ nav.navbar.bootsnav .navbar-toggle i {
     /* Example: Align the text container vertically centered */
     left: 50%;
     /* Example: Align the text container horizontally centered */
-    transform: translate(-120%, -50%);
     /* Center the text container perfectly */
     text-align: left;
     /* Align text in the center */
@@ -1432,7 +1447,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 
 
 .daha-ayd-n-bir {
-    width: 437px;
+    width: 100%;
     top: 0;
     left: 0;
     font-family: "Inter-Bold", Helvetica;
@@ -1443,7 +1458,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 .bug-n-yar-n-ve-her-g {
-    width: 426px;
+    width: 100%;
     top: 0;
     left: 0;
     font-family: "Inter-Bold", Helvetica;
