@@ -607,7 +607,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     border-radius: 50%;
 }
 
-.postlar{
+.Postlar{
     display: flex;
     flex-direction: row;
     transform: translate(150px, 54px);
