@@ -1383,6 +1383,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav .navbar-nav {
         padding-left: 15px;
         padding-right: 15px;
+        background-color: #66D8B3;
     }
     
     .attr-nav{
