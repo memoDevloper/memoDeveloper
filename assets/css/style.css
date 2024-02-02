@@ -1005,7 +1005,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: relative;
     display: flex;
     align-items: center;
-    background: url(../../assets/images/counter/counter-banner.jpg)no-repeat fixed;
+    background: url(/memoDeveloper/assets/images/counter/counter-banner.jpg)no-repeat fixed;
     background-position: center;
     background-size: cover;
     padding: 127px 0 120px;
@@ -1453,11 +1453,13 @@ nav.navbar.bootsnav .navbar-toggle i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%; /* 100% of the viewport height */
+    height: 100%;
+    /* 100% of the viewport height */
     margin: 0;
     width: 100%;
     padding: 140px;
-  }
+}
+
 .frame3 .div {
     display: flex;
     align-items: flex-start;
@@ -1722,7 +1724,7 @@ nav.navbar.bootsnav .navbar-toggle i {
 }
 
 
-.Hero_of_Projeler{
+.Hero_of_Projeler {
     text-align: center;
     font-size: 45px;
     font-weight: 700;
@@ -1731,7 +1733,7 @@ nav.navbar.bootsnav .navbar-toggle i {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding-bottom: 140px; 
+    padding-bottom: 140px;
 }
 
 .frame4 {
@@ -1745,9 +1747,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: relative;
     background-color: rgba(255, 255, 255, 1);
     background: linear-gradient(180deg, rgb(51, 153, 204) 0%, rgb(51, 204, 153) 100%);
-  }
-  
-  .frame4 .div22 {
+}
+
+.frame4 .div22 {
     display: flex;
     flex-direction: column;
     width: 312px;
@@ -1755,15 +1757,15 @@ nav.navbar.bootsnav .navbar-toggle i {
     gap: 15px;
     padding: 20px;
     position: relative;
-  }
-  
-  .frame4 .layer22 {
+}
+
+.frame4 .layer22 {
     position: relative;
     width: 180px;
     height: 54px;
-  }
-  
-  .frame4 .text-wrapper2 {
+}
+
+.frame4 .text-wrapper2 {
     position: relative;
     width: 233px;
     height: 75px;
@@ -1774,14 +1776,14 @@ nav.navbar.bootsnav .navbar-toggle i {
     text-align: justify;
     letter-spacing: 0;
     line-height: 18px;
-  }
-  
-  .frame4 .img2 {
+}
+
+.frame4 .img2 {
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame4 .frame-wrapper2 {
+}
+
+.frame4 .frame-wrapper2 {
     display: flex;
     flex-direction: column;
     width: 312px;
@@ -1790,9 +1792,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     gap: 13px;
     padding: 20px;
     position: relative;
-  }
+}
 
-  .frame4 .div-32 {
+.frame4 .div-32 {
     display: flex;
     flex-direction: column;
     width: 312px;
@@ -1800,8 +1802,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 20px;
     position: relative;
 }
-  
-  .frame4 .div-22 {
+
+.frame4 .div-22 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1809,9 +1811,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 0px 40px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame4 .div-wrapper2 {
+}
+
+.frame4 .div-wrapper2 {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -1820,9 +1822,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 20px 0px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame4 .text-wrapper-22 {
+}
+
+.frame4 .text-wrapper-22 {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -1832,18 +1834,18 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 12px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .frame4 .div-wrapper-22 {
+}
+
+.frame4 .div-wrapper-22 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     padding: 9px 0px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame4 .text-wrapper-32 {
+}
+
+.frame4 .text-wrapper-32 {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -1853,9 +1855,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 12px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .frame4 .div-wrapper-32 {
+}
+
+.frame4 .div-wrapper-32 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1863,18 +1865,18 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 9px 0px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .frame4 .div32 {
+}
+
+.frame4 .div32 {
     display: flex;
     flex-direction: column;
     width: 312px;
     align-items: flex-start;
     padding: 20px;
     position: relative;
-  }
-  
-  .frame4 .div-wrapper-42 {
+}
+
+.frame4 .div-wrapper-42 {
     display: inline-flex;
     align-items: center;
     gap: 10px;
@@ -1882,9 +1884,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: relative;
     flex: 0 0 auto;
     box-shadow: var(--shadow);
-  }
-  
-  .frame4 .text-wrapper-42 {
+}
+
+.frame4 .text-wrapper-42 {
     position: relative;
     width: 104px;
     margin-top: -1px;
@@ -1894,9 +1896,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 12px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .frame4 .text-wrapper-52 {
+}
+
+.frame4 .text-wrapper-52 {
     position: relative;
     width: 104px;
     margin-top: -1px;
@@ -1906,9 +1908,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     font-size: 12px;
     letter-spacing: 0;
     line-height: normal;
-  }
-  
-  .frame4 .p2 {
+}
+
+.frame4 .p2 {
     position: relative;
     width: 104px;
     margin-top: -1px;
@@ -1923,9 +1925,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-  }
-  
-  .frame4 .div-42 {
+}
+
+.frame4 .div-42 {
     display: flex;
     flex-direction: column;
     width: 312px;
@@ -1934,9 +1936,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     padding: 20px 21px;
     position: relative;
     margin-right: 200px;
-  }
-  
-  .frame4 .div-wrapper-52 {
+}
+
+.frame4 .div-wrapper-52 {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1945,9 +1947,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: relative;
     flex: 0 0 auto;
     box-shadow: var(--shadow);
-  }
-  
-  .frame4 .div-52 {
+}
+
+.frame4 .div-52 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -1956,9 +1958,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
-  }
-  
-  .frame4 .div-wrapper-62 {
+}
+
+.frame4 .div-wrapper-62 {
     display: flex;
     align-items: flex-start;
     gap: 10px;
@@ -1967,9 +1969,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     flex: 1;
     flex-grow: 1;
     background-color: #ffffff;
-  }
-  
-  .frame4 .text-wrapper-62 {
+}
+
+.frame4 .text-wrapper-62 {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -1985,9 +1987,9 @@ nav.navbar.bootsnav .navbar-toggle i {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-  }
-  
-  .frame4 .div-wrapper-72 {
+}
+
+.frame4 .div-wrapper-72 {
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;
@@ -1995,14 +1997,179 @@ nav.navbar.bootsnav .navbar-toggle i {
     position: relative;
     flex: 0 0 auto;
     background-color: #3399cc;
-  }
+}
 
-  .socail_media{
+.socail_media {
     display: inline-flex;
     flex-direction: row;
     padding-top: 10px;
-  }
-  .socail_media img{
+}
+
+.socail_media img {
     margin-right: 10px
-  }
+}
+
+/* Adjust margin-top for .LogoClass when screen width is less than or equal to 734px */
+@media only screen and (max-width: 734px) {
+    .LogoClass {
+        margin-top: -20px;
+        /* Adjust as needed, without using !important */
+    }
+
+    .frame4 {
+        width: 100%;
+    }
+
+    .div-233 {
+        width: 100%;
+    }
+
+    nav.navbar.bootsnav .navbar-toggle i {
+        font-size: 12px;
+        color: #fff;
+        /* Adjust the font size as needed */
+    }
+
+    nav.navbar.bootsnav .navbar-toggle {
+        padding: 5px;
+        font-size: 3%;
+        margin-top: 1.6rem;
+        color: #fff;
+        border-color: white !important;
+    }
+
+    .LogoClass {
+        margin-top: -16px !important;
+        width: 60%;
+        /* Adjust the percentage as needed */
+        height: auto;
+        /* Maintain the aspect ratio */
+    }
+
+    .navbar-brand {
+        margin-right: 30px !important;
+    }
+
+    nav.navbar.bootsnav .navbar-brand {
+        float: left !important;
+        padding-left: 40px !important;
+    }
+
+    .welcome-hero {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .welcome-hero-txt h2 {
+        font-size: 14px !important;
+    }
+
+    .bagisButton {
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0.3125rem 0.25rem;
+        margin-top: 15px;
+    }
+
+    .BagisYap_First_button {
+        width: 15px;
+        height: 13px;
+    }
+
+    .bagisButton {
+        border-radius: 4px;
+    }
+
+    .SektorlarClass {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+    }
+
+    .frame3{
+        padding: 0;
+    }
+
+    .frame4{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .frame4 .frame-wrapper2 {
+        padding: 0;
+    }
+
+    .Herdeflermiz{
+        padding-bottom: 150px;
+        text-align: left; /* Adjust text alignment for small screens */
+
+    }
+
+    .imageBg2 div{
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .daha-ayd-n-bir{
+        font-size: 16px;
+        width: 100%;
+        padding: 5px 10px;
+    }
+
+    .bug-n-yar-n-ve-her-g{
+        padding: 5px 10px;
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .imageBg2 .imgBg2{
+        max-width: 180%;
+    }
+
+    .Hero_of_Projeler{
+        font-size: 25px;
+        width: 288px;
+    }
+
+    .frame3 .div-8{
+        padding-bottom: 50px;
+    }
+
+    .frame3 .div-3{
+        margin-bottom: 50px !important;
+    }
+
+    .text-wrapper-22{
+        font-size: 20px !important;
+    }
+
+    .text-wrapper-42{
+        font-size: 20px !important;
+    }
+
+    .p2{
+        font-size: 15px !important;
+    }
+
+    .text-wrapper-32{
+        font-size: 15px !important;
+    }
+
+    .text-wrapper-52{
+        font-size: 15px !important;
+    }
+
+    .Rayan-hero-text{
+        font-size: 35px;
+    }
+
+    .animated .fadeInUp h2{
+        font-size: 25px;
+    }
+
+}
+
 /*========================Thank you=================

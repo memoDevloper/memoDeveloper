@@ -5,7 +5,7 @@
 	<!-- meta data -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
 	<!--font-family-->
@@ -47,6 +47,8 @@
 	<!--responsive.css-->
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
+
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
@@ -71,26 +73,8 @@
 						<li class="select-opt">
 							<select name="language" id="language">
 								<option value="default">EN</option>
-								<option value="Arabic">AB</option>
+								<option value="Arabic">AR</option>
 							</select>
-						</li>
-						<li class="select-opt">
-							<a href="#"><span class="lnr lnr-magnifier"></span></a>
-						</li>
-					</ul>
-				</div>
-			</li>
-			<li class="head-responsive-right pull-right">
-				<div class="header-top-right">
-					<ul>
-						<li class="header-top-contact">
-							+1 222 777 6565
-						</li>
-						<li class="header-top-contact">
-							<a href="#">sign in</a>
-						</li>
-						<li class="header-top-contact">
-							<a href="#">register</a>
 						</li>
 					</ul>
 				</div>
@@ -114,7 +98,8 @@
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 							<i class="fa fa-bars"></i>
 						</button>
-						<a class="navbar-brand " style="margin-top: -20px;" href="/memoDeveloper/index.html"><img class="LogoClass" src="/memoDeveloper/assets/images/Main/Logo.svg" alt="Logo"></a>
+						<a class="navbar-brand " style="margin-top: -20px;" href="index.html"><img class="LogoClass"
+								src="/memoDeveloper/assets/images/Main/Logo.svg" alt="Logo"></a>
 
 					</div><!--/.navbar-header-->
 					<!-- End Header Navigation -->
@@ -157,7 +142,7 @@
 					<div class="Rayan-hero-text">Reyhan </div> Daha Aydın<br> bir gelecek için
 				</h2>
 				<button class="bagisButton">Bağış Yap
-					<svg width="25" height="23" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<svg class="BagisYap_First_button" width="25" height="23" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path id="Vector"
 							d="M7.35376 6.8499C7.53604 7.05223 7.8329 7.05223 8.01779 6.8499L10.8536 3.72737C11.6764 2.8196 11.6296 1.31575 10.7077 0.479071C9.9057 -0.250976 8.71046 -0.119732 7.97612 0.689609L7.68447 1.00952L7.39542 0.692343C6.66109 -0.119732 5.46584 -0.250976 4.66381 0.479071C3.74459 1.31575 3.69511 2.8196 4.51798 3.72737L7.35376 6.8499ZM14.7205 7.05227C14.4133 6.7597 13.9341 6.77884 13.6112 7.05227L11.2051 9.07287C10.9109 9.32169 10.5437 9.45567 10.1635 9.45567H7.08294C6.85379 9.45567 6.6663 9.2588 6.6663 9.01819C6.6663 8.77757 6.85379 8.58071 7.08294 8.58071H9.12189C9.53593 8.58071 9.92133 8.28268 9.98903 7.8534C10.075 7.30655 9.67394 6.83079 9.16616 6.83079H4.99972C4.29664 6.83079 3.61699 7.08508 3.07014 7.5499L1.85927 8.58071H0.416644C0.18749 8.58071 0 8.77757 0 9.01819V11.6431C0 11.8837 0.18749 12.0805 0.416644 12.0805H9.7078C10.0854 12.0805 10.4525 11.9466 10.7494 11.6977L14.6867 8.38932C15.0825 8.05847 15.1137 7.42413 14.7205 7.05227Z"
 							fill="white" />
@@ -173,7 +158,7 @@
 	<section id="list-topics" class="list-topics">
 		<div class="container">
 			<div class="list-topics-content">
-				<ul>
+				<ul class="SektorlarClass">
 					<li>
 						<div class="single-list-topics-content">
 							<div class="single-list-topics-icon">
@@ -226,8 +211,8 @@
 
 	<div class="Herdeflermiz">
 		<div class="hedef_Hero_text">Hedeflerimiz</div>
-		<div class="imageBg2"><img class="imgBg2" src="assets/images/Main/Background2.png" />
-			<div>
+		<div class="imageBg2 container frame3"><img class="imgBg2" src="/memoDeveloper/assets/images/Main/Background2.png" />
+			<div class="container frame3">
 				<p class="daha-ayd-n-bir">Daha Aydın Bir Gelecek İçin</p>
 				<p class="bug-n-yar-n-ve-her-g">
 					<span class="text-wrapper">Bugün, yarın ve her gün<br /></span>
@@ -240,76 +225,93 @@
 	<!--works start -->
 
 
-	<div class="frame3">
-		<div class="div">
-			<div class="Hero_of_Projeler">En Son Eklenen Projeler</div>
+	<section class="frame3 list-topics" id="list-topics">
+		<div class="container">
+			<div>
+				<div class="div">
+					<div class="Hero_of_Projeler">En Son Eklenen Projeler</div>
+				</div>
+				<div class="div-2 div-233">
+				<ul>
+					<li>
+						<div class="div-3 ">
+							<img class="image" src="/memoDeveloper/assets/images/Main/GidaYardimi.png" />
+							<div class="div-4">
+								<div class="div-5">
+									<div class="text-wrapper-2">Gıda Yardımı</div>
+									<p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									</p>
+								</div>
+								<div class="frame-wrapper">
+									<div class="div-6">
+										<div class="text-wrapper-3">Destek ver</div>
+										<img class="vector" src="/memoDeveloper/assets/images/Main/hand2.svg" />
+									</div>
+								</div>
+							</div>
+							<div class="div-wrapper">
+								<div class="div-7">
+									<img class="img" src="/memoDeveloper/assets/images/Main/shair2.svg" />
+									<div class="text-wrapper-4">Gıda</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				
+					<li>
+						<div class="div-8">
+							<img class="image-2" src="/memoDeveloper/assets/images/Main/Cocuk.png" />
+							<div class="div-4">
+								<div class="div-5">
+									<div class="text-wrapper-2">Yetim Sponsoru</div>
+									<p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									</p>
+								</div>
+								<div class="frame-wrapper">
+									<div class="div-6">
+										<div class="text-wrapper-3">Destek ver</div>
+										<img class="vector" src="/memoDeveloper/assets/images/Main/hand2.svg" />
+									</div>
+								</div>
+							</div>
+							<div class="div-wrapper">
+								<div class="div-9">
+									<img class="vector-2" src="/memoDeveloper/assets/images/Main/hand3.svg" />
+									<div class="text-wrapper-4">Koruma</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="div-8 ">
+							<img class="image-3" src="/memoDeveloper/assets/images/Main/Isci Yetistirme.png" />
+							<div class="div-4">
+								<div class="div-5">
+									<div class="text-wrapper-2">işçi yetiştirme</div>
+									<p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+									</p>
+								</div>
+								<div class="frame-wrapper">
+									<div class="div-6">
+										<div class="text-wrapper-3">Destek ver</div>
+										<img class="vector" src="/memoDeveloper/assets/images/Main/hand2.svg" />
+									</div>
+								</div>
+							</div>
+							<div class="div-wrapper">
+								<div class="div-10">
+									<img class="image-4" src="/memoDeveloper/assets/images/Main/EgitimIcon.png" />
+									<div class="text-wrapper-4">Eğitim</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					
+				</ul>
+				</div>
+			</div>
 		</div>
-		<div class="div-2">
-			<div class="div-3">
-				<img class="image" src="/memoDeveloper/assets/images/Main/GidaYardimi.png" />
-				<div class="div-4">
-					<div class="div-5">
-						<div class="text-wrapper-2">Gıda Yardımı</div>
-						<p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-					<div class="frame-wrapper">
-						<div class="div-6">
-							<div class="text-wrapper-3">Destek ver</div>
-							<img class="vector" src="/memoDeveloper/assets/images/Main/hand2.svg" />
-						</div>
-					</div>
-				</div>
-				<div class="div-wrapper">
-					<div class="div-7">
-						<img class="img" src="/memoDeveloper/assets/images/Main/shair2.svg" />
-						<div class="text-wrapper-4">Gıda</div>
-					</div>
-				</div>
-			</div>
-			<div class="div-8">
-				<img class="image-2" src="/memoDeveloper/assets/images/Main/Cocuk.png" />
-				<div class="div-4">
-					<div class="div-5">
-						<div class="text-wrapper-2">Yetim Sponsoru</div>
-						<p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-					<div class="frame-wrapper">
-						<div class="div-6">
-							<div class="text-wrapper-3">Destek ver</div>
-							<img class="vector" src="/memoDeveloper/assets/images/Main/hand2.svg" />
-						</div>
-					</div>
-				</div>
-				<div class="div-wrapper">
-					<div class="div-9">
-						<img class="vector-2" src="/memoDeveloper/assets/images/Main/hand3.svg" />
-						<div class="text-wrapper-4">Koruma</div>
-					</div>
-				</div>
-			</div>
-			<div class="div-8">
-				<img class="image-3" src="/memoDeveloper/assets/images/Main/Isci Yetistirme.png" />
-				<div class="div-4">
-					<div class="div-5">
-						<div class="text-wrapper-2">işçi yetiştirme</div>
-						<p class="p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-					</div>
-					<div class="frame-wrapper">
-						<div class="div-6">
-							<div class="text-wrapper-3">Destek ver</div>
-							<img class="vector" src="/memoDeveloper/assets/images/Main/hand2.svg" />
-						</div>
-					</div>
-				</div>
-				<div class="div-wrapper">
-					<div class="div-10">
-						<img class="image-4" src="/memoDeveloper/assets/images/Main/EgitimIcon.png" />
-						<div class="text-wrapper-4">Eğitim</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	</section>
 </body>
 
 <!--works end -->
@@ -327,7 +329,7 @@
 		</div>
 	</div>
 	<div class="frame-wrapper2">
-		<div class="div-22">
+		<div class="div-32">
 			<div class="div-wrapper2">
 				<div class="text-wrapper-22">Kurumsal</div>
 			</div>
