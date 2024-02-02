@@ -2156,7 +2156,8 @@ nav.navbar.bootsnav .navbar-toggle i {
     }
 
     .imageBg2 .imgBg2{
-        max-width: 180%;
+        max-width: 100%;
+        height: 110px;
     }
 
     .Hero_of_Projeler{
